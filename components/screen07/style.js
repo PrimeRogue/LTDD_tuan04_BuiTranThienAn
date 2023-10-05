@@ -2,17 +2,12 @@ import { StyleSheet } from "react-native";
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundImage: "linear-gradient(to top, #00CCF9, #C7F3F6)",
-    alignItems: "center",
-    justifyContent: "space-between",
-    padding: 10,
-    paddingTop: 100,
-    paddingBottom: 100,
+    backgroundImage: "linear-gradient(to top, #FACA01, #C19B01)",
+    padding: 40,
   },
 
   circleBar: {
-    width: "140px",
-    height: "140px",
+    width: "100%",
   },
   title: {
     width: "189px",
@@ -51,5 +46,11 @@ export const styles = StyleSheet.create({
     fontWeight: "400",
     fontSize: "15px",
     marginLeft: "15px",
+  },
+  headerText: {
+    fontSize: "60px",
+    fontFamily: "Roboto",
+    fontWeight: "700",
+    textAlign: "center",
   },
 });

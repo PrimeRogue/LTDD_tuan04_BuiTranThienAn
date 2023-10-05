@@ -6,11 +6,14 @@ import Screen03 from "./components/screen03";
 import Screen04 from "./components/screen04";
 import Screen05 from "./components/screen05";
 import Screen06 from "./components/screen06";
+import Screen07 from "./components/screen07";
 
 export default function App() {
-  // return <Screen01></Screen01>;
+  return <Screen01></Screen01>;
   // return <Screen02></Screen02>;
   // return <Screen03></Screen03>;
   // return <Screen04></Screen04>;
-  return <Screen06></Screen06>;
+  // return <Screen05></Screen05>;
+  // return <Screen06></Screen06>;
+  // return <Screen07></Screen07>;
 }
